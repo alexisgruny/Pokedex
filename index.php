@@ -6,6 +6,6 @@ if($_SERVER['REQUEST_URI'] === '/accueil'){
 } else {
     require 'controllers/pokemonListController.php';
 }
-
+//test
 require 'views/template/footer.php';
 ?>
