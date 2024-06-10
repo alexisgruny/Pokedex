@@ -2,6 +2,14 @@ body {
     background-color: #ADD8E6;
 }
 
+p{
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -50,19 +58,20 @@ tr:nth-child(even) {
     transition: 0.3s;
     border-radius: 5px;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    padding: 8px;
 }
 
 .pokemonCard:hover {
     box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
 }
 
-.pokemonNumber {
-    font-size: 25px;
-}
-
 .pokemonName {
-    text-align: center;
-    font-size: 25px;
+    margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .pokemonImage {
