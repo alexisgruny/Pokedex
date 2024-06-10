@@ -11,7 +11,6 @@ if($uri === '/accueil'){
     require 'controllers/pokemonListController.php';
     require 'views/pokemon/list.php';
 }
-//test
 
 require 'views/template/footer.php';
 ?>
